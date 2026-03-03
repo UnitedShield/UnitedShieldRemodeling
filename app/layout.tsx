@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Playfair_Display_SC, Source_Sans_3 } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import SEOSchema from "@/components/seo-schema"
 
@@ -82,7 +83,10 @@ export default function RootLayout({
       <head>
         <SEOSchema />
       </head>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
