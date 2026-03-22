@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Droplets, Flame, Shield, Zap } from "lucide-react"
@@ -60,10 +61,11 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <Card key={index} className="bg-card border-2 border-border hover:shadow-lg transition-shadow">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
-                <img
+                <Image
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
                 <div className="absolute top-4 left-4 bg-primary text-primary-foreground p-3 rounded-full">
                   <service.icon className="h-6 w-6" />

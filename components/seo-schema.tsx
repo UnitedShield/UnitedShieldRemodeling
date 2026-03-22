@@ -46,7 +46,9 @@ export default function SEOSchema({ page = "home", serviceName }: SEOSchemaProps
     priceRange: "$$",
     image: "https://unitedshieldremodeling.com/images/united-shield-logo.png",
     logo: "https://unitedshieldremodeling.com/images/united-shield-logo.png",
-    sameAs: [],
+    sameAs: [
+      "https://www.facebook.com/profile.php?id=61579958900947",
+    ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Home Remodeling Services",
