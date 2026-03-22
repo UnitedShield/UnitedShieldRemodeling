@@ -1,5 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
+import Script from "next/script"
 import { Playfair_Display_SC, Source_Sans_3 } from "next/font/google"
 import "./globals.css"
 import SEOSchema from "@/components/seo-schema"
@@ -81,6 +82,14 @@ export default function RootLayout({
     <html lang="en" className={`${playfairDisplaySC.variable} ${sourceSans.variable} antialiased`}>
       <head>
         <SEOSchema />
+        {/* Umami Analytics - privacy-friendly, no cookies, free tier */}
+        {/* Sign up at https://cloud.umami.is and replace the data-website-id below */}
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="REPLACE_WITH_YOUR_UMAMI_WEBSITE_ID"
+          strategy="afterInteractive"
+        />
       </head>
       <body className="font-sans">{children}</body>
     </html>
