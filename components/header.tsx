@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Phone, Shield, Award, Menu, ChevronDown } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -34,9 +35,11 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 md:gap-4">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 src="/images/united-shield-logo.png"
                 alt="United Shield Remodeling Logo"
+                width={64}
+                height={64}
                 className="h-12 w-12 md:h-16 md:w-16 object-contain"
               />
             </div>
