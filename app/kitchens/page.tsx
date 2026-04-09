@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   description:
     "Remodel your kitchen with United Shield Remodeling. Custom cabinetry, countertops, backsplashes & more. Veteran-owned kitchen remodeling in The Woodlands, Spring, Conroe, Tomball, Montgomery, Magnolia, Willis, Cypress, and North Houston. Free estimates.",
   openGraph: {
-    title: "Kitchen Remodeling | United Shield Remodeling | The Woodlands, Spring, Conroe, Tomball, Montgomery, Magnolia, Willis, Cypress, and North Houston",
-    description: "Transform your kitchen with custom cabinetry, countertops, and modern appliances.",
+    title: "Custom Kitchen Design & Remodeling Services - The Woodlands, Tx | United Shield Remodeling",
+    description: "Remodel your kitchen with custom cabinetry, countertops, and modern appliances.",
     images: [
       {
         url: "/images/usrm-banner.jpg",
