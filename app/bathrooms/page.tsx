@@ -7,7 +7,7 @@ import CTASection from "@/components/cta-section"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Bathroom & Bathtub Remodeling Services | United Shield Remodeling",
+  title: "Bathroom & Bathtub Remodeling Services - The Woodlands, Tx | United Shield Remodeling",
   description:
     "Transform your bathroom into a spa-like retreat. Walk-in showers, custom vanities, tile work & more. Veteran-owned bathroom remodeling in The Woodlands, Spring, Conroe, Tomball, Montgomery, Magnolia, Willis, Cypress, and North Houston. Free estimates.",
 }
