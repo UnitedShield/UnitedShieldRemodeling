@@ -7,7 +7,7 @@ import CTASection from "@/components/cta-section"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Bathroom Remodeling | United Shield Remodeling | The Woodlands, Spring, Conroe, Tomball, Montgomery, Magnolia, Willis, Cypress, and North Houston",
+  title: "Bathroom & Bathtub Remodeling Services | United Shield Remodeling",
   description:
     "Transform your bathroom into a spa-like retreat. Walk-in showers, custom vanities, tile work & more. Veteran-owned bathroom remodeling in The Woodlands, Spring, Conroe, Tomball, Montgomery, Magnolia, Willis, Cypress, and North Houston. Free estimates.",
 }
@@ -49,8 +49,8 @@ export default function BathroomsPage() {
     <main className="min-h-screen">
       <Header />
       <ServiceHero
-        title="Your Bathroom, Reimagined as a Personal Retreat"
-        subtitle="Turn your bathroom into a spa-like sanctuary. Whether it's a sleek modern shower, a luxurious tub, or a practical upgrade, United Shield Remodeling delivers bathrooms that combine comfort, beauty, and durability."
+        title="Custom Bathroom Remodeling"
+        subtitle="Your bathroom: reimagined as a personal retreat. Turn your bathroom into a spa-like sanctuary. Whether it's a sleek modern shower, a luxurious tub, or a practical upgrade, United Shield Remodeling delivers bathrooms that combine comfort, beauty, and durability."
         backgroundImage="/images/usrm-banner.jpg"
       />
       <ServiceDetails
