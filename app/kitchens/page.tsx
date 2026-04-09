@@ -70,8 +70,7 @@ export default function KitchensPage() {
       <Header />
       <ServiceHero
         title="Kitchen Remodeling Services"
-        <h2="Cook, Gather, and Entertain in a Kitchen Designed Just for You"</h2>
-        subtitle="Your kitchen is the heart of your home—and it should be as functional as it is beautiful. At United Shield Remodeling, we transform outdated kitchens into stunning, chef-worthy spaces built around your lifestyle."
+        subtitle="Cook, gather, and entertain in a kitchen designed just for you. Your kitchen is the heart of your home—and it should be as functional as it is beautiful. At United Shield Remodeling, we transform outdated kitchens into stunning, chef-worthy spaces built around your lifestyle."
         backgroundImage="/images/kitchen-remodeling.jpg"
       />
       <ServiceDetails
