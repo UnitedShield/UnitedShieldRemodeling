@@ -69,7 +69,8 @@ export default function KitchensPage() {
       <SEOSchema page="service" serviceName="Kitchen Remodeling" />
       <Header />
       <ServiceHero
-        title="Cook, Gather, and Entertain in a Kitchen Designed Just for You"
+        title="Kitchen Remodeling Services"
+        <h2 subtitle="Cook, Gather, and Entertain in a Kitchen Designed Just for You"</h2>
         subtitle="Your kitchen is the heart of your home—and it should be as functional as it is beautiful. At United Shield Remodeling, we transform outdated kitchens into stunning, chef-worthy spaces built around your lifestyle."
         backgroundImage="/images/kitchen-remodeling.jpg"
       />
